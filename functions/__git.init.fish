@@ -88,6 +88,7 @@ function __git.init
   __git.create_abbr gmt        git mergetool --no-prompt
   __git.create_abbr gmom       git merge origin/\(__git.default_branch\)
   __git.create_abbr gp         git push
+  __git.create_abbr gpf        git push --force
   __git.create_abbr gp!        git push --force-with-lease
   __git.create_abbr gpo        git push origin
   __git.create_abbr gpo!       git push --force-with-lease origin
